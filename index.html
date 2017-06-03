@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" href="style/Form.css"/>
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="body"></div>
+    <div class="grad"></div>
+    <div class="header">
+        <div>OnlineQuest<span>Selector</span></div>
+    </div>
+    <br>
+    <form method="post">
+        <div class="Form"  id="loginTable">
+            <input type="text"  class="userid"  placeholder="学号" name="number"><br>
+            <input type="password"  class="password"  placeholder="密码" name="password"><br>
+            <input type="button"  class="login"  value="登录">
+        </div>
+    </form>
+
+    <div>
+        <!-- <div class="hidden" id = "gotoregister" > -->
+        <form class="signin" name="loginform">
+            <div class="Form"  id = "gotoregister">
+                <input class="ipt" type="text" id="groupid" class="pwd"  placeholder="请输入小组组号"  value="" size="20"><br>
+                <p style="font-size:18px">是否是组长：</p>
+                <br/>
+                <input class="radio" type="radio" name="leader" value="yep" /> 是
+                <input class="radio" type="radio" name="leader" value="no" /> 否
+                <br/>
+                <input class="radio Gnregister" style="margin:0" type="button" name="submit" value=" 报名并加入小组 " />
+            </div>
+        </form>
+        <a id="gotoqiang" href="qiang.html" title="去抢题">去抢题</a>
+    </div>
+
+
+    <div  id="gotomcao" style="display:none">
+        <a href="mcao.html" title="控制台">控制台</a>
+    </div>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
